@@ -6,7 +6,7 @@ import ContactMe from './contactMe';
 export default function colorPicker() {
   const [theme, setTheme] = useState('blue'); // tema utamanya biru
 
-  // Terapkan kelas tema ke <body>
+  
   useEffect(() => {
     document.body.className = theme;
   }, [theme]);
